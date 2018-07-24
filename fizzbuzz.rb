@@ -1,9 +1,11 @@
 def fizzbuzz(number)
-  if gets number % 3
-  puts "fizzbuzz"
-elseif 
-  puts "wrong, try again"
-if gets number % 5
-  puts "buzz"
+  if number % 3 == 0
+  return "fizzbuzz"
+elsif 
+  return "wrong, try again"
+if number % 5 == 0
+  return "buzz"
+else 
+ return NIL
 end
 end
